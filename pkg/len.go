@@ -1,9 +1,10 @@
 package len
 
 import (
-	cache "cache/internel"
 	"fmt"
 	"runtime"
+
+	cache "github.com/Hamster601/LRU-Cache/internel"
 )
 
 func CalcLen(value interface{}) int {

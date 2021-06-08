@@ -1,4 +1,4 @@
-module cache
+module github.com/Hamster601/LRU-Cache
 
 go 1.15
 

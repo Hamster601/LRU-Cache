@@ -1,9 +1,10 @@
 package lru
 
 import (
-	cache "cache/internel"
-	len "cache/pkg"
 	"container/list"
+
+	cache "github.com/Hamster601/LRU-Cache/internel"
+	len "github.com/Hamster601/LRU-Cache/pkg"
 )
 
 // lru 是一个 LRU cache。它不是并发安全的。
