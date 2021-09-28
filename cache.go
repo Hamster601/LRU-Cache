@@ -63,6 +63,7 @@ func (c *CLRUCache) move(el *list.Element) {
 	select {
 	case c.movePairs <- el:
 	default:
+		return
 	}
 }
 
