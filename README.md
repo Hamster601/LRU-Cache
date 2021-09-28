@@ -5,8 +5,6 @@ A Local Cache with LRU , and high performance，Concurrency safety，in memory.
 
 `go get github.com/Hamster601/LRU-Cache`
 
-# Usage
-
 ```Go
 package main
 
@@ -22,6 +20,14 @@ func main() {
     fmt.Println(result)
 }
 ```
+
+# Usage
+
+---
+
+TODO
+
+
 
 # BenchmartTest
 ```bigquery
